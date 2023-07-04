@@ -7,9 +7,7 @@
     text-decoration: none;
     max-width: 100%;
 }
-body{
-    
-}
+
 
 #header{
     max-width: 100%;
@@ -58,6 +56,6 @@ body{
 }
 .img_princ{
     position: absolute;
-    top: 0px;
+    top: -54px;
     z-index: -1;
 }
