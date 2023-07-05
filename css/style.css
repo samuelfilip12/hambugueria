@@ -41,12 +41,13 @@
 }
 .nav_menu a{
     color: #42200b;
+    letter-spacing: 2px;
 }
 .man0 {
-    margin: auto 33px 20px 40px;
+    margin: auto 33px 17px 40px;
 }
 .men1{
-    margin-left: 20px;
+    margin-left: 17px;
 }
 
 /*Fim Header*/
