@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    max-width: 100%;
 }
 
 
-#header{
+#header {
     max-width: 100%;
     height: 135px;
     display: flex;
@@ -39,38 +38,56 @@
 .nav_menu {
     display: flex;
 }
-.nav_menu a{
-    color: #42200b;
+
+.nav_menu a {
+    color: #40220a;
     letter-spacing: 2px;
 }
+
 .man0 {
     margin: auto 33px 17px 40px;
 }
-.men1{
+
+.men1 {
     margin-left: 17px;
 }
 
 /*Fim Header*/
 
-#parte_principal{
-    max-width: 100rem;
-    height: 100rem;
-}
-.img_princ{
+#parte_principal {
+    width: 100%;
+    height: 100vh;/* Define a altura da seção para ocupar 100% da altura da tela */
+    background: url("/imagens/fundo01.jpg");
+    background-size: cover;/* Redimensiona a imagem para cobrir todo o espaço da seção */
+    background-position: center;/* Centraliza a imagem dentro da seção */
     position: absolute;
-    top: -54px;
-    z-index: -1;
+    top: 0;
+    z-index: -2;
 }
-#text_princ{
-    margin-top: 40px;
+
+#text_princ {
+    margin-top: 220px;
     margin-left: 40px;
 }
 
-.tex_p_princ{
-    width: 415px;
-    height: 25px;
-    padding: 10px;
+.tex_p_princ {
+    width: 420px;
+    padding: 5px;
     text-align: center;
-    line-height: 25px;
-    border:3px dashed #42200b;
+    border: 4px dashed #40220a;
+}
+
+.tex_p_princ p {
+    font: normal 20px Oswald;
+}
+#parte_principal h1{
+    font:  normal 100px Alfa Slab One;
+    color: #40220a;
+    text-shadow: 3px 3px 3px white;
+}
+#parte_principal span{
+    display: block; /* Define o span como um elemento de bloco */
+    font: normal 50px Alfa Slab One;
+    color: #40220a;
+    margin-top: -25px; /* Adiciona um espaço de 10px acima do span */
 }
