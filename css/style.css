@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+
 }
 
 
@@ -13,7 +14,6 @@
     height: 135px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0 30px;
     font: normal 17px Bebas Neue;
 }
@@ -56,7 +56,7 @@
 
 #parte_principal {
     width: 100%;
-    height: 100vh;/* Define a altura da seção para ocupar 100% da altura da tela */
+    height: 100%;/* Define a altura da seção para ocupar 100% da altura da tela */
     background: url("/imagens/fundo01.jpg");
     background-size: cover;/* Redimensiona a imagem para cobrir todo o espaço da seção */
     background-position: center;/* Centraliza a imagem dentro da seção */
@@ -87,7 +87,44 @@
 }
 #parte_principal span{
     display: block; /* Define o span como um elemento de bloco */
-    font: normal 50px Alfa Slab One;
+    font: normal 40px Alfa Slab One;
     color: #40220a;
     margin-top: -25px; /* Adiciona um espaço de 10px acima do span */
 }
+
+/*Segunda Parte da pagina*/
+#segunda_parte{
+    width: 100%;
+    height: auto;
+    margin-top: 257px;
+    background: #fff;
+    display: flex;
+    font: normal 17px Bebas Neue;
+}
+.ajustar_segundaparte{
+    width: 900px;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.ajustar_segundaparte p{
+    font: normal 17px Bebas Neue;
+  
+}
+.ajustar_segundaparte h1{
+    font: normal 17px Bebas Neue;
+  
+}
+.most img{
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+.fig_most img{
+    border-radius: 10px;
+    margin-bottom: 21px;
+    margin-left: 30px;
+    max-width: 450px;
+}
+
