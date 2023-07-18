@@ -80,7 +80,7 @@
 .tex_p_princ p {
     font: normal 20px Oswald;
 }
-#parte_principal h1{
+#text_princ h1{
     font:  normal 100px Alfa Slab One;
     color: #40220a;
     text-shadow: 3px 3px 3px white;
@@ -100,12 +100,20 @@
     background: #fff;
     display: flex;
     font: normal 17px Bebas Neue;
+    color: #fff;
 }
 .ajustar_segundaparte{
     width: 900px;
-    height: auto;
+    height: 320px;
     display: flex;
     margin: auto;
+}
+.img_section01{
+    height: 146px;
+    margin-bottom: 26px;
+}
+.img_section02{
+    height: 146px;
 }
 
 .ajustar_segundaparte p{
@@ -128,3 +136,40 @@
     max-width: 450px;
 }
 
+#p_1{
+    position: relative;
+    top: -297px;
+    left: 20px;
+    z-index: 0;
+}
+#p_2{
+    position: relative;
+    top: -155px;
+    left: 55px;
+    z-index: 0;
+}
+
+.popular{
+    position: relative;
+    top: -300px;
+    left: 20px;
+    z-index: 0;
+    font-size: 33px;
+}
+.fun{
+    line-height: 1em;
+    width: 130px;
+    position: relative;
+    top: -159px;
+    left: 55px;
+    z-index: 0;
+    font-size: 32px;
+}
+
+.fun2{
+    position: relative;
+    top: -159px;
+    left: 55px;
+    z-index: 1;
+    font-size: 32px;
+}
