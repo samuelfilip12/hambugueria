@@ -175,3 +175,56 @@
 }
 
 /*Segunda Section Finalizada*/
+
+#terceira_parte{
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.always{
+    width: 200px;
+    height: 30px;
+    padding: 2px;
+    margin: auto;
+    background: #FEC64D;
+    font: normal 23px Bebas Neue;
+    color: #40220a;
+}
+.choose{
+    font: normal 40px Alfa Slab One;
+    color: #40220a;
+    margin-top: 20px;
+}
+.p_terceira_parte{
+    font: normal 16px Oswald;
+}
+.parte_hambirguers{
+    display: flex;
+    margin-top: 55px;
+    font: normal 16px Oswald;
+}
+.parte_hambirguers img{
+    max-width: 250px;
+}
+.parte_hambirguers div{
+    margin: auto;
+}
+.titulo_parte_ham{
+    color: #40220a;
+}
+.text_parte_ham{
+    margin-top: 9px;
+}
+.button_parte_hambur{
+    width: 160px;
+    padding: 12px;
+    background: #DD1A18;
+    font: normal 12px Alfa Slab One;
+    color: white;
+    border-style: none;
+    margin-top: 20px;
+}
+
+/*Terceira Section Finalizada*/
